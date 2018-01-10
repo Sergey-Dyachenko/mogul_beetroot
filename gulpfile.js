@@ -7,6 +7,7 @@ var gulp = require ('gulp');
 var sass = require('gulp-sass');
 var jshint = require('gulp-jshint');
 var concat = require('gulp-concat');
+var livereload = require('gulp-livereload');
 
 //Lint Task
 
@@ -20,7 +21,8 @@ gulp.task('lint', function () {
 gulp.task('sass', function(){
     return gulp.src('scss/*.scss')
         .pipe(sass())
-        .pipe(gulp.dest('dist/css'));
+        .pipe(gulp.dest('dist/css'))
+        .pipe(livereload())
 });
 
 //Concate & minify Js
@@ -28,13 +30,12 @@ gulp.task('scripts', function(){
    return gulp.src('js/*.js')
        .pipe(concat('all.js'))
        .pipe(gulp.dest('dist/js'))
-       .pipe(rename('all.min.js'))
-       .pipe(uglify())
        .pipe(gulp.dest('dist/js'));
 });
 
 //Watch Files For Chfnges
 gulp.task('watch', function(){
+    livereload.listen();
     gulp.watch('js/*.js', ['lint', 'scripts']);
     gulp.watch('scss/*.scss', ['sass']);
 })
