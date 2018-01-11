@@ -1,2 +1,30 @@
+@font-face {
+  font-family: FuturaLT-Light;
+  src: url(../fonts/FuturaLT-Light.ttf); }
+
+@font-face {
+  font-family: FuturaLT;
+  src: url(../fonts/FuturaLT.ttf); }
+
+nav {
+  height: 80px; }
+  nav .logo {
+    margin-top: 19px; }
+  nav ul {
+    list-style-type: none;
+    font-family: Arial, sans-serif;
+    color: #878484; }
+  nav li {
+    float: left;
+    display: inline-block;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 35px 28px; }
+
+.main-background {
+  background-image: url("../img/header-main-bg.jpg");
+  height: 678px;
+  width: auto; }
+
 body {
-  background: red; }
+  background: #fffff; }

@@ -1,0 +1,21 @@
+@import 'const';
+nav{
+  height:80px;
+  .logo{
+    margin-top:19px;
+  }
+  ul{
+    list-style-type: none;
+    font-family: Arial, sans-serif;
+    color: $menu_text_color;
+  }
+
+  li{
+    float: left;
+    display: inline-block;
+    font-size: $base_text_size;
+    text-transform: uppercase;
+    padding: 35px 28px;
+  }
+}
+
