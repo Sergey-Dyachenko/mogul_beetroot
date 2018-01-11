@@ -22,7 +22,7 @@ gulp.task('sass', function(){
     return gulp.src('scss/*.scss')
         .pipe(sass())
         .pipe(gulp.dest('dist/css'))
-        .pipe(livereload())
+        .pipe(livereload());
 });
 
 //Concate & minify Js
