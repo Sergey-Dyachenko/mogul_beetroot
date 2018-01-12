@@ -1,18 +1,29 @@
 @import "const";
-.main-section{
-  padding: 140px 0px 95px ;
+.main-article{
+  padding: 140px 0px 95px;
 }
 
 h1{
   color: #000;
   font-size: 41px;
   text-align: center;
-  padding-bottom: 90px;
   font-family: $base_font;
 }
 
-.main-text{
+.main-text-first, .main-text-second{
   text-align: center;
+  padding: 86px 36px 96px;
 }
+
+.main-image-article{
+  padding: 50px;
+  border: 1px solid #000;
+}
+
+.main-section-img-block{
+  padding: 0px 40px;
+}
+
+
 
 
