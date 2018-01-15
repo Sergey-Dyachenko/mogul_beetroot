@@ -14,12 +14,16 @@ nav {
     list-style-type: none;
     font-family: Arial, sans-serif;
     color: #878484; }
+  nav ul.nav-block {
+    padding-left: 15px; }
   nav li {
     float: left;
     display: inline-block;
     font-size: 14px;
     text-transform: uppercase;
     padding: 35px 28px; }
+  nav .logo {
+    margin-left: 37px; }
 
 .main-background {
   background-image: url("../img/header-main-bg.jpg");
@@ -61,12 +65,24 @@ footer {
   height: 340px;
   background-color: #282828; }
 
-.footer-side-block-signup {
-  padding: 65px 90px 90px 55px; }
+footer {
+  font-size: 16px;
+  color: #ffffff;
+  text-align: center; }
 
-h3.footer-side-block-signup {
-  font-size: 24px;
-  color: #ffffff; }
+.footer-side-block-signup {
+  padding: 65px 150px 150px 55px;
+  line-height: 1em; }
+
+.footer-side-block-signup h3 {
+  font-weight: 700;
+  margin-bottom: 60px;
+  font-size: 24px; }
+
+.footer-side-block-signup p {
+  margin-bottom: 60px;
+  padding: 0px 75px;
+  line-height: 1.5em; }
 
 body {
   background-color: #ffffff;

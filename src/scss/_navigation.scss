@@ -9,6 +9,9 @@ nav{
     font-family: Arial, sans-serif;
     color: $menu_text_color;
   }
+  ul.nav-block {
+    padding-left: 15px;
+  }
 
   li{
     float: left;
@@ -16,6 +19,9 @@ nav{
     font-size: $base_text_size;
     text-transform: uppercase;
     padding: 35px 28px;
+  }
+  .logo{
+    margin-left: 37px;
   }
 }
 

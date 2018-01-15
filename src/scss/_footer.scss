@@ -1,10 +1,23 @@
 @import "const";
 
+footer{
+  font-size: 16px;
+  color: #ffffff;
+  text-align: center;
+}
 .footer-side-block-signup{
-  padding: 65px 90px 90px 55px;
+  padding: 65px 150px 37px 150px;
+  line-height: 1em;
 }
 
-h3.footer-side-block-signup{
+.footer-side-block-signup h3{
+  font-weight: 700;
+  margin-bottom: 60px;
   font-size: 24px;
-  color: #ffffff;
+}
+
+.footer-side-block-signup p{
+  margin-bottom: 60px;
+  padding: 0px 75px;
+  line-height: 1.5em;
 }
