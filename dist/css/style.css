@@ -62,27 +62,50 @@ h1 {
   margin: 0px 0px 60px; }
 
 footer {
-  height: 340px;
-  background-color: #282828; }
-
-footer {
+  background-color: #282828;
   font-size: 16px;
   color: #ffffff;
   text-align: center; }
 
-.footer-side-block-signup {
-  padding: 65px 150px 150px 55px;
+.footer-side-block-signup,
+.footer-center-block-address,
+.footer-side-block-social {
+  padding: 65px 55px 50px 55px;
   line-height: 1em; }
 
-.footer-side-block-signup h3 {
+.footer-side-block-signup h3,
+.footer-center-block h3,
+.footer-side-block-social h3 {
   font-weight: 700;
   margin-bottom: 60px;
   font-size: 24px; }
+
+.footer-center-block p {
+  line-height: 0.95em; }
 
 .footer-side-block-signup p {
   margin-bottom: 60px;
   padding: 0px 75px;
   line-height: 1.5em; }
+
+.footer-center-block-address ul {
+  list-style-type: none; }
+
+.footer-center-block-address div {
+  padding-bottom: 70px; }
+
+.footer-center-block-address li {
+  display: inline-block;
+  float: left;
+  margin-left: 20px; }
+
+.footer-center-block-address li::before {
+  content: '';
+  height: 13px;
+  /*height of image*/
+  width: 18px;
+  /*width of image*/
+  position: absolute; }
 
 body {
   background-color: #ffffff;
