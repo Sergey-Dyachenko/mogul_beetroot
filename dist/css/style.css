@@ -61,6 +61,13 @@ footer {
   height: 340px;
   background-color: #282828; }
 
+.footer-side-block-signup {
+  padding: 65px 90px 90px 55px; }
+
+h3.footer-side-block-signup {
+  font-size: 24px;
+  color: #ffffff; }
+
 body {
   background-color: #ffffff;
   font-family: FuturaLT-Light, sans-serif; }
