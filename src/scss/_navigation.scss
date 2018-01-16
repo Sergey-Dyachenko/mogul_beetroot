@@ -1,8 +1,7 @@
 @import 'const';
 nav{
-  .logo{
-    margin-top:150px;
-  }
+  height: 80px;
+  background-color: #ffffff;
   ul{
     list-style-type: none;
     font-family: Arial, sans-serif;
@@ -17,10 +16,11 @@ nav{
     display: inline-block;
     font-size: $base_text_size;
     text-transform: uppercase;
-    padding: 35px 28px;
+    padding:  28px;
   }
   .logo{
     margin-left: 37px;
+    margin-top:120px;
   }
 }
 

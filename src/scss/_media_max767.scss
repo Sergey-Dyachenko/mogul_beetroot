@@ -1,9 +1,21 @@
 @media (max-width: 767px) {
   nav{
-      li{
+     .show {
+       height: 100%;
+       overflow: hidden;
+     }
+
+    li{
           padding: 0px;
     }
+    .logo{
+      margin-top: 0px;
+    }
   }
-
-
+.main-background{
+  display: none;
+}
+  nav{
+    height: auto;
+  }
 }
