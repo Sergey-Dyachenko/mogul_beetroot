@@ -4,6 +4,7 @@
 @import "main-background";
 @import "home-main-section";
 @import "footer";
+@import "header-light";
 @import "media_max_991";
 @import "media_max767";
 body{
@@ -11,6 +12,7 @@ body{
   font-family: $base_font;
   margin-top:0rem;
 }
+@import "templates/contact/_contact.scss";
 
 
 

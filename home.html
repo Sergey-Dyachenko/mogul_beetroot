@@ -12,7 +12,7 @@
     <title>Mogul</title>
 </head>
 <body>
-<header>
+<header class="header">
   <div class="container-fluid">
          <div class="row">
              <nav class="navbar navbar-expand-md fixed-top">
@@ -23,23 +23,23 @@
 
                  <div class="navbar-collapse collapse" id="navbarsExampleDefault" style="">
                      <ul class="navbar-nav mr-auto nav-block">
-                         <li class="nav-item active">
-                             <a class="nav-link disabled" href="#">Home <span class="sr-only">(current)</span></a>
+                         <li class="nav-item active nav-block__nav-item">
+                             <a class="nav-link disabled nav-block__nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                          </li>
-                         <li class="nav-item">
-                             <a class="nav-link disabled" href="#">Reviews</a>
+                         <li class="nav-item nav nav-block__nav-item">
+                             <a class="nav-link disabled nav-block__nav-link" href="#">Reviews</a>
                          </li>
-                         <li class="nav-item">
-                             <a class="nav-link disabled" href="#">Services</a>
+                         <li class="nav-item nav-block__nav-item">
+                             <a class="nav-link disabled nav-block__nav-link" href="#">Services</a>
                          </li>
-                         <li class="nav-item">
-                             <a class="nav-link disabled" href="#">Portfolio</a>
+                         <li class="nav-item nav-block__nav-item">
+                             <a class="nav-link disabled nav-block__nav-link" href="#">Portfolio</a>
                          </li>
-                         <li class="nav-item">
-                             <a class="nav-link disabled" href="#">Blog</a>
+                         <li class="nav-item nav-block__nav-item">
+                             <a class="nav-link disabled nav-block__nav-link" href="#">Blog</a>
                          </li>
-                         <li class="nav-item">
-                             <a class="nav-link disabled" href="#">Contact</a>
+                         <li class="nav-item nav-block__nav-item">
+                             <a class="nav-link disabled nav-block__nav-link" href="#">Contact</a>
                          </li>
 
                      </ul>
@@ -50,16 +50,16 @@
   </div>
 
 </header>
-<div class="header_spacer" style="height: 80px;"></div>
-<section class="main-background">
+<div class="spacer-block" style="height: 80px;"></div>
+<section class="background-block">
 </section>
-<main>
+<main class="main-block">
     <article class="container main-article">
         <h1>
             Professional makeup services throughout New England
         </h1>
 
-        <section class="main-section ">
+        <section class="main-section">
         <div class="row justify-content-center">
             <div class="main-text-first">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
@@ -70,8 +70,8 @@
                 Excepteur sint occaecat cupidatat non proident, sunt
             </div>
             <div class="col-10">
-               <div class="text-center main-section-img-block">
-                <img src="dist/img/girl.jpg" class="img-fluid main-image-article" >
+               <div class="text-center img-block">
+                <img src="dist/img/girl.jpg" class="img-fluid img-block__img" >
                </div>
             </div>
             <div class="main-text-first col-10">
@@ -83,8 +83,8 @@
                 Excepteur sint occaecat cupidatat non proident, sunt
             </div>
             <div class="col-10">
-                <div class="text-center main-section-img-block">
-                    <img src="dist/img/allison-photo.jpg" class="second-image-article img-fluid" >
+                <div class="text-center img-block">
+                    <img src="dist/img/allison-photo.jpg" class="img-block__img img-fluid" >
                 </div>
                 <div class="contact-block">
                     <div class="name-adress-block text-center">
@@ -114,8 +114,8 @@
 <footer>
     <div class="container-fluid">
                 <div class="row">
-                    <div class="col-md-3 footer-side-block" style="border:1px solid cornflowerblue">
-                        <div class="footer-side-block-signup">
+                    <div class="col-md-3 footer-side-block" >
+                        <div class="footer-side-block__signup">
                             <h3>
                                 Sign up for e-mail updates
                             </h3>
@@ -128,8 +128,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-5 footer-center-block" style="border:1px solid yellowgreen">
-                        <div class="footer-center-block-address">
+                    <div class="col-md-5 footer-center-block">
+                        <div class="footer-center-block__address">
                             <h3>
                                 Mogul Makeup Artistry
                             </h3>
@@ -148,16 +148,13 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-md-4 footer-side-block" style="border:1px solid navajowhite">
-                       <div class="footer-side-block-social">
+                    <div class="col-md-4 footer-side-block">
+                       <div class="footer-side-block__social">
                             <h3>
                                 Stay connected with us!
                             </h3>
                             <p>Stay up to date with blah blah for</p>
                              <p>   blah blah and yeah blah</p>
-                            <!--<ul>-->
-                                <!--<li><a href="https://www.facebook.com/usawebcashdotcom" class="fa fa-lg fa-facebook" target="_blank" aria-hidden="true"></a></li>-->
-                            <!--</ul>-->
                            <div class='icon-wrapper'>
                                <i class="fa fa-lg fa-facebook"></i>
                            </div>

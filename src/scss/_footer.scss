@@ -1,80 +1,79 @@
 @import "const";
 
-footer{
+footer {
   background-color: $footer_bg_color;
   font-size: 16px;
   color: #ffffff;
   text-align: center;
-}
-.footer-side-block-signup,
-.footer-center-block-address,
-.footer-side-block-social{
-  padding: 65px 55px 50px 55px;
-  line-height: 1em;
-}
 
-.footer-side-block-signup h3,
-.footer-center-block h3,
-.footer-side-block-social h3{
-  font-weight: 700;
-  margin-bottom: 60px;
-  font-size: 24px;
-}
+  .footer-side-block__signup,
+  .footer-center-block,
+  .footer-side-block__social {
+    padding: 65px 55px 50px 55px;
+    line-height: 1em;
 
-.footer-center-block p{
-  line-height: 0.95em;
-}
-
-.footer-center-block{
-  i{
-    margin-right: 13px;
-  }
-}
-
-.footer-side-block-signup p {
-  margin-bottom: 60px;
-  line-height: 1.5em;
-}
-
-.footer-center-block-address ul{
-  list-style-type: none;
- }
-
-.footer-center-block-address div{
-  padding-bottom: 70px;
-}
-
-.footer-center-block-address li{
-  display: inline-block;
-  float: left;
-  margin-left: 20px;
-}
-
-.footer-center-block-address li::before {
-  content:'';
-  //background: url('../img/icons/map-icon.png') no-repeat;
-  height: 13px;/*height of image*/
-  width: 18px;/*width of image*/
-  position: absolute;
-}
-
-.footer-side-block-social{
-  .icon-wrapper{
-    display: inline-block;
-    width: 65px; height: 65px;
-    background-color: $social_icon_bg;
-    border-radius: 999px;
-    margin-left: 12px;
-    margin-top: 6px;
-
-    i{
-      padding: 18px 0px 0px 0px;
-      color: $social_icon_color;
-      font-size: 40px;
+    h3 {
+      font-weight: 700;
+      margin-bottom: 60px;
+      font-size: 24px;
     }
   }
-}
 
+  .footer-center-block {
+    p {
+      line-height: 0.95em;
+    }
+    i {
+      margin-right: 13px;
+    }
+  }
+
+
+  .footer-side-block__signup p {
+    margin-bottom: 60px;
+    line-height: 1.5em;
+  }
+
+  .footer-center-block__address {
+    ul {
+      list-style-type: none;
+    }
+    div{
+      padding-bottom: 70px;
+    }
+    li{
+      display: inline-block;
+      float: left;
+      margin-left: 20px;
+    }
+    li::before {
+      content: '';
+      //background: url('../img/icons/map-icon.png') no-repeat;
+      height: 13px; /*height of image*/
+      width: 18px; /*width of image*/
+      position: absolute;
+    }
+  }
+
+  .footer-side-block__social {
+    .icon-wrapper {
+      display: inline-block;
+      width: 65px;
+      height: 65px;
+      background-color: $social_icon_bg;
+      border-radius: 999px;
+      margin-left: 12px;
+      margin-top: 6px;
+
+      i {
+        padding: 18px 0px 0px 0px;
+        color: $social_icon_color;
+        font-size: 40px;
+      }
+    }
+  }
+
+}
 
 
 

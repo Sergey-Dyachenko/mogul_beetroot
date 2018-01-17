@@ -1,6 +1,6 @@
 @import "const";
 .main-article{
-  padding: 140px 0px 95px;
+  padding: 140px 0px 0px;
 }
 
 h1{
@@ -10,17 +10,17 @@ h1{
   font-family: $base_font;
 }
 
-.main-text-first, .main-text-second{
+.main-text-first{
   text-align: center;
   padding: 86px 36px 96px;
 }
 
-.main-image-article, .second-image-article{
+.img-block__img {
   padding: 3.571rem;
   border: 1px solid #000;
 }
 
-.main-section-img-block{
+.img-block{
   padding: 0px 40px;
 }
 
