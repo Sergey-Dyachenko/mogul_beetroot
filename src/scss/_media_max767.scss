@@ -1,21 +1,25 @@
 @media (max-width: 767px) {
-  nav{
-     .show {
-       height: 100%;
-       overflow: hidden;
-     }
+nav{
+
+      height: auto;
+    .show{
+      background: #ffffff;
+    }
 
     li{
           padding: 0px;
     }
-    .logo{
-      margin-top: 0px;
+    .logo-block{
+      margin-top: 20px;
+    }
+    .logo-block__img{
+      width:50%;
     }
   }
 .main-background{
   display: none;
 }
-  nav{
-    height: auto;
-  }
+
+
+
 }

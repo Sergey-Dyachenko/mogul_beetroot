@@ -21,7 +21,7 @@ nav {
     font-size: 14px;
     text-transform: uppercase;
     padding: 28px; }
-  nav .logo {
+  nav .logo-block {
     margin-left: 37px;
     margin-top: 120px; }
 
@@ -89,7 +89,6 @@ footer {
 
 .footer-side-block-signup p {
   margin-bottom: 60px;
-  padding: 0px 75px;
   line-height: 1.5em; }
 
 .footer-center-block-address ul {
@@ -124,18 +123,27 @@ footer {
     color: #282828;
     font-size: 40px; }
 
+@media (max-width: 991px) {
+  .footer-side-block-signup,
+  .footer-center-block-address,
+  .footer-side-block-social {
+    padding: 65px 0px; }
+  .footer-side-block-signup p {
+    padding: 0px; } }
+
 @media (max-width: 767px) {
-  nav .show {
-    height: 100%;
-    overflow: hidden; }
-  nav li {
-    padding: 0px; }
-  nav .logo {
-    margin-top: 0px; }
-  .main-background {
-    display: none; }
   nav {
-    height: auto; } }
+    height: auto; }
+    nav .show {
+      background: #ffffff; }
+    nav li {
+      padding: 0px; }
+    nav .logo-block {
+      margin-top: 20px; }
+    nav .logo-block__img {
+      width: 50%; }
+  .main-background {
+    display: none; } }
 
 body {
   background-color: #ffffff;
