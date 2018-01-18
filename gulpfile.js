@@ -19,7 +19,7 @@ gulp.task('lint', function () {
 
 //Compile Our Sass
 gulp.task('sass', function(){
-    return gulp.src('src/scss/*.scss')
+    return gulp.src('src/scss/**/*.scss')
         .pipe(sass())
         .pipe(gulp.dest('dist/css'))
         .pipe(livereload());
@@ -37,7 +37,7 @@ gulp.task('scripts', function(){
 gulp.task('watch', function(){
     livereload.listen();
     gulp.watch('src/js/*.js', ['lint', 'scripts']);
-    gulp.watch('src/scss/*.scss', ['sass']);
+    gulp.watch('src/scss/**/*.scss', ['sass']);
 })
 
 //Default Task

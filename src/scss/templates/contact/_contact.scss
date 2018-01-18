@@ -1,0 +1,51 @@
+@import "../../const";
+.contact-form-block__title{
+  font-size: 48px;
+  color:$h1_form_title_color;
+  margin:120px 0px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.contact-form-block{
+  margin-top: 120px;
+
+  .contact-form__title{
+    margin-bottom: 120px;
+  }
+
+
+}
+
+
+.contact-form-fields-block__label{
+  color: #4d4f50;
+  font-size: 24px;
+}
+
+.contact-form-fields-block__input{
+  border:0px;
+  background-color: #f4f5f4;
+  margin-bottom: 40px;
+  line-height: 2rem;
+}
+
+.contact-form-fields-block__textarea{
+  @extend .contact-form-fields-block__input
+}
+
+.review-block__img{
+  padding: 19px 0px 0px 60px;
+}
+
+.buttons-block{
+  margin-top: 270px;
+}
+
+.submit-block__img{
+  padding: 87px 0px 0px 10px;
+}
+
+.book_apointment__img {
+  padding: 0px 0px 0px 50px;
+}
