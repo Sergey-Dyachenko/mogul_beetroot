@@ -146,6 +146,9 @@ body {
   font-family: FuturaLT-Light, sans-serif;
   margin-top: 0rem; }
 
+.form-group {
+  margin-bottom: 0rem; }
+
 .contact-form-block__title {
   font-size: 48px;
   color: #282828;
@@ -175,7 +178,7 @@ body {
   margin-top: 270px; }
 
 .submit-block__img {
-  padding: 87px 0px 0px 10px; }
+  padding: 132px 0px 0px 5px; }
 
 .book_apointment__img {
   padding: 0px 0px 0px 50px; }

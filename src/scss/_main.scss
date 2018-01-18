@@ -12,6 +12,9 @@ body{
   font-family: $base_font;
   margin-top:0rem;
 }
+.form-group{
+  margin-bottom: 0rem;
+}
 @import "templates/contact/_contact.scss";
 
 
