@@ -1,14 +1,49 @@
 @media (max-width: 991px)
 {
+  nav{
+
+    height: auto;
+    .show{
+      background: #ffffff;
+    }
+
+    li{
+      padding: 0px;
+    }
+    .logo-block{
+      margin-top: 20px;
+    }
+    .logo-block__img{
+      width:50%;
+    }
+  }
+  .background-block{
+    display: none;
+  }
+
+  .contact-form-block .contact-form__title {
+    margin-bottom: 60px;
+  }
+
+  .background-block-lite{
+    display: none;
+  }
+
+  .buttons-block{
+    margin-top: 0px;
+  }
+
   .footer-side-block-signup,
   .footer-center-block-address,
   .footer-side-block-social{
-    padding: 65px 0px;
+    padding: 65px 0px 0px 0px;
   }
 
 
   .footer-side-block-signup p{
     padding : 0px;
   }
+
+
 
    }

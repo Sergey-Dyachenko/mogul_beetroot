@@ -119,36 +119,6 @@ footer {
   height: 383px;
   width: auto; }
 
-@media (max-width: 991px) {
-  .footer-side-block-signup,
-  .footer-center-block-address,
-  .footer-side-block-social {
-    padding: 65px 0px; }
-  .footer-side-block-signup p {
-    padding: 0px; } }
-
-@media (max-width: 767px) {
-  nav {
-    height: auto; }
-    nav .show {
-      background: #ffffff; }
-    nav li {
-      padding: 0px; }
-    nav .logo-block {
-      margin-top: 20px; }
-    nav .logo-block__img {
-      width: 50%; }
-  .background-block {
-    display: none; } }
-
-body {
-  background-color: #ffffff;
-  font-family: FuturaLT-Light, sans-serif;
-  margin-top: 0rem; }
-
-.form-group {
-  margin-bottom: 0rem; }
-
 .contact-form-block__title {
   font-size: 48px;
   color: #282828;
@@ -180,5 +150,54 @@ body {
 .submit-block__img {
   padding: 132px 0px 0px 5px; }
 
-.book_apointment__img {
-  padding: 0px 0px 0px 50px; }
+@media (max-width: 991px) {
+  nav {
+    height: auto; }
+    nav .show {
+      background: #ffffff; }
+    nav li {
+      padding: 0px; }
+    nav .logo-block {
+      margin-top: 20px; }
+    nav .logo-block__img {
+      width: 50%; }
+  .background-block {
+    display: none; }
+  .contact-form-block .contact-form__title {
+    margin-bottom: 60px; }
+  .background-block-lite {
+    display: none; }
+  .buttons-block {
+    margin-top: 0px; }
+  .footer-side-block-signup,
+  .footer-center-block-address,
+  .footer-side-block-social {
+    padding: 65px 0px 0px 0px; }
+  .footer-side-block-signup p {
+    padding: 0px; } }
+
+@media (max-width: 767px) {
+  nav {
+    height: auto; }
+    nav .show {
+      background: #ffffff; }
+    nav li {
+      padding: 0px; }
+    nav .logo-block {
+      margin-top: 20px; }
+    nav .logo-block__img {
+      width: 50%; }
+  .background-block {
+    display: none; }
+  .background-block-lite {
+    display: none; }
+  .review-block__img {
+    padding: 0px; } }
+
+body {
+  background-color: #ffffff;
+  font-family: FuturaLT-Light, sans-serif;
+  margin-top: 0rem; }
+
+.form-group {
+  margin-bottom: 0rem; }

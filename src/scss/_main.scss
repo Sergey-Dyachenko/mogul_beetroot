@@ -5,6 +5,7 @@
 @import "home-main-section";
 @import "footer";
 @import "header-light";
+@import "templates/contact/_contact.scss";
 @import "media_max_991";
 @import "media_max767";
 body{
@@ -15,7 +16,7 @@ body{
 .form-group{
   margin-bottom: 0rem;
 }
-@import "templates/contact/_contact.scss";
+
 
 
 
