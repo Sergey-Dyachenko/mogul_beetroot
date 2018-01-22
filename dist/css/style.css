@@ -154,6 +154,10 @@ footer {
 .submit-block__img {
   padding: 132px 0px 0px 5px; }
 
+.title-page-block__title {
+  padding: 102px 0px 0px 110px;
+  text-align: center; }
+
 @media (max-width: 991px) {
   nav {
     height: auto; }
