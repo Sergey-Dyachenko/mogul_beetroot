@@ -142,7 +142,11 @@ footer {
   line-height: 2rem; }
 
 .review-block__img {
-  padding: 19px 0px 0px 60px; }
+  padding: 19px 0px 0px 60px;
+  height: 171px; }
+
+.review-block, .book_apointment {
+  height: 171px; }
 
 .buttons-block {
   margin-top: 270px; }
@@ -174,7 +178,14 @@ footer {
   .footer-side-block-social {
     padding: 65px 0px 0px 0px; }
   .footer-side-block-signup p {
-    padding: 0px; } }
+    padding: 0px; }
+  .book_apointment__img, .submit-block__img, .review-block__img {
+    max-width: 100%;
+    height: auto; }
+  .submit-block__img {
+    padding: 0px; }
+  .review-block, .book_apointment {
+    height: 0px; } }
 
 @media (max-width: 767px) {
   nav {
@@ -198,6 +209,9 @@ body {
   background-color: #ffffff;
   font-family: FuturaLT-Light, sans-serif;
   margin-top: 0rem; }
+
+.spacer-block {
+  height: 80px; }
 
 .form-group {
   margin-bottom: 0rem; }

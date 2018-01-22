@@ -39,11 +39,27 @@
     padding: 65px 0px 0px 0px;
   }
 
-
   .footer-side-block-signup p{
     padding : 0px;
   }
 
+  .book_apointment__img{
+    max-width: 100%;
+    height: auto;
+  }
+  .submit-block__img{
+    @extend .book_apointment__img;
+    padding: 0px;
+  }
+
+  .review-block__img{
+    @extend .book_apointment__img;
+  }
+
+  .review-block, .book_apointment{
+    height: 0px;
+
+  }
 
 
-   }
+}
