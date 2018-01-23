@@ -1,4 +1,37 @@
-.title-page-block__title{
-  padding: 102px 0px 0px 110px;
+@import "../../const";
+
+.title-page-block{
+  display: block;
   text-align: center;
+
 }
+.title-page-block__title{
+  padding: 102px 0px 120px 0px;
+  text-align: center;
+  font-size: $h1_portfolio_title_size;
+}
+
+ul.gallery-titles-block{
+  display: inline-block;
+}
+
+li.gallery-title-item{
+  display: inline-block;
+  float: left;
+  padding: 0px 45px;
+  border-right: 1px solid #ccc;
+}
+
+a.gallery-title-item__link {
+  color: $gallery_title_color;
+  text-transform: uppercase;
+  font-size:$gallery_title_size;
+}
+
+.gallery-row{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+

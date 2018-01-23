@@ -154,9 +154,33 @@ footer {
 .submit-block__img {
   padding: 132px 0px 0px 5px; }
 
-.title-page-block__title {
-  padding: 102px 0px 0px 110px;
+.title-page-block {
+  display: block;
   text-align: center; }
+
+.title-page-block__title {
+  padding: 102px 0px 120px 0px;
+  text-align: center;
+  font-size: 60px; }
+
+ul.gallery-titles-block {
+  display: inline-block; }
+
+li.gallery-title-item {
+  display: inline-block;
+  float: left;
+  padding: 0px 45px;
+  border-right: 1px solid #ccc; }
+
+a.gallery-title-item__link {
+  color: #282828;
+  text-transform: uppercase;
+  font-size: 24px; }
+
+.gallery-row {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap; }
 
 @media (max-width: 991px) {
   nav {
