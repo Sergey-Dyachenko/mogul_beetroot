@@ -29,9 +29,17 @@ a.gallery-title-item__link {
 }
 
 .gallery-row{
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.border-top{
+  border-top:1px solid #d4d8d8;
+  padding-top: 30px;
+}
+
+.border-bottom{
+  border-bottom:1px solid #d4d8d8;
+  margin-bottom: 30px;
 }
 
 
