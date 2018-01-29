@@ -188,6 +188,12 @@ a.gallery-title-item__link {
   border-bottom: 1px solid #d4d8d8;
   margin-bottom: 30px; }
 
+.text-block-gallery {
+  margin: 185px 0px; }
+  .text-block-gallery .text-block-gallery__title {
+    font-size: 41px;
+    text-align: center; }
+
 @media (max-width: 991px) {
   nav {
     height: auto; }

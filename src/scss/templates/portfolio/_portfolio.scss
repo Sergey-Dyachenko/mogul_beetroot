@@ -42,4 +42,21 @@ a.gallery-title-item__link {
   margin-bottom: 30px;
 }
 
+.text-block-gallery{
+  margin:185px 0px;
+
+
+  & .text-block-gallery__title{
+    font-size: $h1font-size;
+    text-align: center;
+  }
+
+  & .text-block-gallery__paragrah{
+
+  }
+
+}
+
+
+
 
