@@ -25,6 +25,36 @@ nav {
     margin-left: 37px;
     margin-top: 120px; }
 
+* {
+  margin: 0;
+  padding: 0; }
+
+html,
+body {
+  height: 100%; }
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%; }
+
+.main-block {
+  flex: 1 0 auto; }
+
+.footer {
+  flex: 0 0 auto; }
+
+body {
+  background-color: #ffffff;
+  font-family: FuturaLT-Light, sans-serif;
+  margin-top: 0rem; }
+
+.spacer-block {
+  height: 80px; }
+
+.form-group {
+  margin-bottom: 0rem; }
+
 .background-block {
   background: url("../img/header-main-bg.jpg") no-repeat;
   background-size: cover;
@@ -116,8 +146,10 @@ footer {
 .background-block-lite {
   background: url("../img/header-main-bg-lite.png") no-repeat;
   background-size: cover;
-  height: 383px;
-  width: auto; }
+  min-height: 383px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center; }
 
 .contact-form-block__title {
   font-size: 48px;
@@ -194,6 +226,29 @@ a.gallery-title-item__link {
     font-size: 41px;
     text-align: center; }
 
+.reviews-title-block {
+  margin-bottom: 120px;
+  text-align: center; }
+  .reviews-title-block .reviews-title-block__title {
+    font-size: 48px; }
+
+.reviews-text-block {
+  padding: 25px 0px;
+  text-align: center;
+  border-top: 1px solid #d4d8d8;
+  border-bottom: 1px solid #d4d8d8; }
+
+.reviews-text_header {
+  font-size: 35px; }
+
+.reviews-text_plain {
+  font-size: 22px; }
+
+.reviews-info-author {
+  text-align: center;
+  font-size: 35px;
+  margin: 40px 0px 0px 0px; }
+
 @media (max-width: 991px) {
   nav {
     height: auto; }
@@ -209,8 +264,6 @@ a.gallery-title-item__link {
     display: none; }
   .contact-form-block .contact-form__title {
     margin-bottom: 60px; }
-  .background-block-lite {
-    display: none; }
   .buttons-block {
     margin-top: 0px; }
   .footer-side-block-signup,
@@ -244,14 +297,3 @@ a.gallery-title-item__link {
     display: none; }
   .review-block__img {
     padding: 0px; } }
-
-body {
-  background-color: #ffffff;
-  font-family: FuturaLT-Light, sans-serif;
-  margin-top: 0rem; }
-
-.spacer-block {
-  height: 80px; }
-
-.form-group {
-  margin-bottom: 0rem; }

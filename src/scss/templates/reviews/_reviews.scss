@@ -1,0 +1,36 @@
+@import "../../const";
+
+
+.reviews-title-block{
+  margin-bottom: 120px;
+  text-align: center;
+  .reviews-title-block__title{
+    font-size:$h1_reviews_title_size;
+  }
+
+}
+
+
+
+.reviews-text-block {
+  padding: 25px 0px;
+  text-align: center;
+  border-top:1px solid #d4d8d8;
+  border-bottom:1px solid #d4d8d8;
+}
+  .reviews-text_header{
+    font-size: 35px;
+  }
+
+
+ .reviews-text_plain{
+    font-size: 22px;
+  }
+
+
+
+.reviews-info-author{
+  text-align: center;
+  font-size: 35px;
+  margin: 40px 0px 0px 0px;
+}
