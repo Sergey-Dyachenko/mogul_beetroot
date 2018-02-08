@@ -237,17 +237,35 @@ a.gallery-title-item__link {
   text-align: center;
   border-top: 1px solid #d4d8d8;
   border-bottom: 1px solid #d4d8d8; }
+  .reviews-text-block .reviews-text_header {
+    font-size: 35px; }
+  .reviews-text-block .reviews-text_plain {
+    font-size: 22px; }
+  .reviews-text-block .reviews-info-author {
+    text-align: center;
+    font-size: 35px;
+    margin: 40px 0px 0px 0px; }
 
-.reviews-text_header {
-  font-size: 35px; }
+.review-button-block {
+  display: flex;
+  justify-content: center;
+  margin: 43px 0px 50px 0px; }
 
-.reviews-text_plain {
-  font-size: 22px; }
+.logo-section .logo-section__header {
+  display: flex;
+  justify-content: center; }
+  .logo-section .logo-section__header h3 {
+    text-align: center;
+    font-size: 30px;
+    padding: 38px 0px;
+    border-top: 1px solid #d4d8d8;
+    border-bottom: 1px solid #d4d8d8; }
 
-.reviews-info-author {
-  text-align: center;
-  font-size: 35px;
-  margin: 40px 0px 0px 0px; }
+.logo-section .logo-section__logos {
+  margin: 36px 0px 105px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
 
 @media (max-width: 991px) {
   nav {
