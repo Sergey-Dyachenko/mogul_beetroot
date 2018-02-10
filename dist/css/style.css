@@ -223,7 +223,7 @@ a.gallery-title-item__link {
 .text-block-gallery {
   margin: 185px 0px; }
   .text-block-gallery .text-block-gallery__title {
-    font-size: 41px;
+    font-size: 40px;
     text-align: center; }
 
 .reviews-title-block {
@@ -272,6 +272,25 @@ a.gallery-title-item__link {
     line-height: 10px; }
     .logo-section .logo-section__logos .logo-wrapper .review-button-block__img {
       padding-right: 15px; }
+
+.height-wrapper {
+  max-height: 2050px;
+  overflow-y: scroll;
+  padding-right: 130px; }
+
+.article-block .article-block__title {
+  font-size: 40px;
+  text-transform: capitalize;
+  margin-bottom: 40px; }
+
+.article-block .article-block__text {
+  padding-top: 40px;
+  border-top: 1px solid #d4d8d8;
+  text-align: center; }
+  .article-block .article-block__text p {
+    margin-bottom: 40px; }
+  .article-block .article-block__text p:last-child {
+    margin-bottom: 0px; }
 
 @media (max-width: 991px) {
   nav {

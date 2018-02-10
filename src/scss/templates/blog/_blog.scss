@@ -1,0 +1,28 @@
+@import "../../const";
+
+.height-wrapper{
+max-height: 2050px;
+overflow-y: scroll;
+padding-right: 130px;
+}
+
+.article-block{
+   .article-block__title{
+    font-size: $h1font-size;
+    text-transform: capitalize;
+    margin-bottom: 40px;
+  }
+  .article-block__text{
+    padding-top: 40px;
+    border-top: $border;
+    text-align: center;
+    p{
+      margin-bottom: 40px;
+    }
+    p:last-child{
+      margin-bottom: 0px;
+    }
+  }
+}
+
+
