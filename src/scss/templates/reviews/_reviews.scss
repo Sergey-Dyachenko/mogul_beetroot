@@ -53,7 +53,19 @@
   .logo-section__logos{
     margin:36px 0px 105px 0px;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+    align-items: baseline;
+
+    .logo-wrapper{
+      border-right: $border;
+      line-height: 10px;
+
+      .review-button-block__img{
+        padding-right: 15px;
+      }
+    }
   }
+
+
 }

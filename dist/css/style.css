@@ -264,8 +264,14 @@ a.gallery-title-item__link {
 .logo-section .logo-section__logos {
   margin: 36px 0px 105px 0px;
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
-  align-items: center; }
+  align-items: baseline; }
+  .logo-section .logo-section__logos .logo-wrapper {
+    border-right: 1px solid #d4d8d8;
+    line-height: 10px; }
+    .logo-section .logo-section__logos .logo-wrapper .review-button-block__img {
+      padding-right: 15px; }
 
 @media (max-width: 991px) {
   nav {
