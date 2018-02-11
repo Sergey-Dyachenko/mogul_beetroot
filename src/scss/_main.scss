@@ -36,6 +36,9 @@ body{
   margin-bottom: 0rem;
 }
 
+dl, ol, ul, p{
+  margin-bottom: 0px;
+}
 
 @import "main-background";
 @import "home-main-section";
