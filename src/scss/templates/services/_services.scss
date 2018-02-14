@@ -1,0 +1,33 @@
+@import "../../const";
+
+.services-wrapper{
+  .title-page-block__title{
+    font-size: $h1_reviews_title_size;
+    padding: 110px 0px 110px ;
+  }
+
+  ul.services-titles-block{
+    display: inline-block;
+    padding: 70px 0px;
+    border-top: $border;
+    border-bottom: $border;
+  }
+
+  li.services-title-item{
+    display: inline-block;
+    float: left;
+    padding: 0px 45px;
+    border-right: $border;
+  }
+
+  li.services-title-item:last-child{
+    border-right: none;
+  }
+  a.services-title-item__link {
+    color: $gallery_title_color;
+    text-transform: uppercase;
+    font-size:$gallery_title_size;
+  }
+
+
+}

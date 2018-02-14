@@ -11,11 +11,11 @@
   font-size: $h1_portfolio_title_size;
 }
 
-ul.gallery-titles-block{
+ul.gallery-titles-block, ul.services-titles-block{
   display: inline-block;
 }
 
-li.gallery-title-item{
+li.gallery-title-item, li.services-title-item{
   display: inline-block;
   float: left;
   padding: 0px 45px;

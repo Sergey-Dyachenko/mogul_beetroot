@@ -149,7 +149,7 @@ footer {
 .background-block-lite {
   background: url("../img/header-main-bg-lite.png") no-repeat;
   background-size: cover;
-  min-height: 383px;
+  min-height: 270px;
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center; }
@@ -198,10 +198,10 @@ footer {
   text-align: center;
   font-size: 60px; }
 
-ul.gallery-titles-block {
+ul.gallery-titles-block, ul.services-titles-block {
   display: inline-block; }
 
-li.gallery-title-item {
+li.gallery-title-item, li.services-title-item {
   display: inline-block;
   float: left;
   padding: 0px 45px;
@@ -312,6 +312,30 @@ ul.widget-list-post-box {
     font-size: 18px;
     text-transform: uppercase;
     line-height: 2em; }
+
+.services-wrapper .title-page-block__title {
+  font-size: 48px;
+  padding: 110px 0px 110px; }
+
+.services-wrapper ul.services-titles-block {
+  display: inline-block;
+  padding: 70px 0px;
+  border-top: 1px solid #d4d8d8;
+  border-bottom: 1px solid #d4d8d8; }
+
+.services-wrapper li.services-title-item {
+  display: inline-block;
+  float: left;
+  padding: 0px 45px;
+  border-right: 1px solid #d4d8d8; }
+
+.services-wrapper li.services-title-item:last-child {
+  border-right: none; }
+
+.services-wrapper a.services-title-item__link {
+  color: #282828;
+  text-transform: uppercase;
+  font-size: 24px; }
 
 @media (max-width: 991px) {
   nav {
