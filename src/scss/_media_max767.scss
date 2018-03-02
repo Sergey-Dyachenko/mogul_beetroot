@@ -10,7 +10,7 @@ nav{
           padding: 0px;
     }
     .logo-block{
-      margin-top: 20px;
+      margin-top: 0px;
     }
     .logo-block__img{
       width:50%;
@@ -24,6 +24,10 @@ nav{
   }
   .review-block__img {
     padding: 0px;
+  }
+
+  .custom-header-box__img{
+    margin-top: 22px;
   }
 
 }

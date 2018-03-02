@@ -384,7 +384,7 @@ ul.widget-list-post-box {
     nav li {
       padding: 0px; }
     nav .logo-block {
-      margin-top: 20px; }
+      margin-top: 0px; }
     nav .logo-block__img {
       width: 50%; }
   .background-block {
@@ -415,7 +415,7 @@ ul.widget-list-post-box {
     nav li {
       padding: 0px; }
     nav .logo-block {
-      margin-top: 20px; }
+      margin-top: 0px; }
     nav .logo-block__img {
       width: 50%; }
   .background-block {
@@ -423,4 +423,6 @@ ul.widget-list-post-box {
   .background-block-lite {
     display: none; }
   .review-block__img {
-    padding: 0px; } }
+    padding: 0px; }
+  .custom-header-box__img {
+    margin-top: 22px; } }
