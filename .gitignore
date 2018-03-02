@@ -34,7 +34,7 @@ node_modules
 #idea files
 .idea/workspace.xml
 ###End Gulp###
-
+gulpfile.js
 
 # Created by https://www.gitignore.io/api/phpstorm
 
